@@ -54,14 +54,46 @@
 		B509860D1FAC9ED200775EC7 /* Dicee */ = {
 			isa = PBXGroup;
 			children = (
-				B509860E1FAC9ED200775EC7 /* AppDelegate.swift */,
+				B50986201FAC9F1200775EC7 /* Controller */,
+				B50986221FAC9F3C00775EC7 /* Resources */,
+				B50986231FAC9F5600775EC7 /* Supporting Files */,
+				B50986211FAC9F2300775EC7 /* View */,
+			);
+			path = Dicee;
+			sourceTree = "<group>";
+		};
+		B50986201FAC9F1200775EC7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				B50986101FAC9ED200775EC7 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B50986211FAC9F2300775EC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
 				B50986121FAC9ED200775EC7 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B50986221FAC9F3C00775EC7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				B50986151FAC9ED200775EC7 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B50986231FAC9F5600775EC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B509860E1FAC9ED200775EC7 /* AppDelegate.swift */,
 				B50986171FAC9ED200775EC7 /* LaunchScreen.storyboard */,
 				B509861A1FAC9ED200775EC7 /* Info.plist */,
 			);
-			path = Dicee;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
